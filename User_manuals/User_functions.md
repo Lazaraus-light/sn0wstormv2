@@ -24,6 +24,7 @@ That's it: you'll see the other channels straight away. If the server is in a sh
 |---|---|
 | `/report @user` | Tells the moderators privately about someone breaking the rules. A box pops up for you to explain what happened. You can attach a screenshot, which is handy for messages sent to you in private. Nobody else sees your report. |
 | **Report message** | Right-click a message (on a phone, press and hold it), choose **Apps**, then **Report message**. The moderators get a link to the message and your explanation. |
+| `/feedback` | Tell the bot's developer about something that isn't working, or suggest an idea. You don't need a GitHub account. **What you write is published on a public web page**, without your name, so leave out personal details and anything about other members. The moderators of your server can see that you sent it. You can send 3 per hour. |
 | `/boop` | Boop the bot's snoot, or boop someone else with `/boop @member`. Just for fun. |
 | `/diagnostics` | Shows whether the bot is running smoothly. |
 | `/dnd` | For D&D players: join a campaign as your character, or see and leave the ones you're in. See the [D&D guide](DnD_functions.md). |
@@ -53,4 +54,4 @@ If you think a warning or removed message was a mistake, talk to one of the mode
 
 ## Your privacy
 
-The bot doesn't save your messages. If a message is deleted or edited, the moderators can see the old version in their private log. Messages containing an ID number are left out of that log. The bot records your voice only if you join a D&D campaign and say yes to recording. Read the full [Privacy Policy](../PRIVACY.md) and [Terms of Service](../TERMS.md).
+The bot doesn't save your messages. If a message is deleted or edited, the moderators can see the old version in their private log. Messages containing an ID number are left out of that log. The bot records your voice only if you join a D&D campaign and say yes to recording. Anything you send with `/feedback` is public. Read the full [Privacy Policy](../PRIVACY.md) and [Terms of Service](../TERMS.md).

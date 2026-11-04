@@ -30,6 +30,9 @@ You may use the bot's features as intended. You may not:
 Report commands are rate-limited. Misusing them can lead to moderation action in the server
 and to being blocked from the bot.
 
+`/feedback` publishes what you write on a public page. Only send what you're happy to have
+public, and nothing about other people.
+
 ## 3. Automated moderation
 
 The bot removes some messages automatically: invite links, executable files, national ID

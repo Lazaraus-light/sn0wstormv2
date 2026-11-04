@@ -93,6 +93,8 @@ These need the Manage Server permission. `/setup show` shows the current setting
 
 **Giving the mod role its commands:** Discord hides moderator commands from anyone without the matching permission, and the bot can't change that. If your mod role should use commands like `/warn`, open **Server Settings → Integrations**, pick the bot, and add the role to each command you want it to have. Only give it what you're comfortable with: a role allowed to use `/ban` can ban through the bot even if the role itself has no ban permission.
 
+**Feedback from members:** anyone can use `/feedback` to send a problem or an idea to the bot's developer. It's published on a public page without their name. The mod log shows who sent it and links to it, so you can step in if someone misuses it. Words on your blocked list can't be sent this way.
+
 ### Server themes
 
 Swap the server's look for a holiday and put it back afterwards, without redoing everything by hand.

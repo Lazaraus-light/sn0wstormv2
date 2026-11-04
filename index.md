@@ -21,7 +21,7 @@ Sn0wStormV2 is a helper bot for Discord servers. It welcomes new people, keeps s
 
 ## Report a problem or suggest something
 
-Found something that doesn't work, or have an idea? [Open an issue](https://github.com/Lazaraus-light/sn0wstormv2/issues/new/choose). You'll need a free GitHub account.
+Found something that doesn't work, or have an idea? Use `/feedback` in Discord, or [open an issue](https://github.com/Lazaraus-light/sn0wstormv2/issues/new/choose) if you have a GitHub account.
 
 **Issues are public.** Anyone can read them, so please don't include personal information, private messages or anything about another member.
 

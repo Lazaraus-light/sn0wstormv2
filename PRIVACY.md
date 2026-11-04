@@ -141,18 +141,29 @@ automatic deletion yet. You can ask for your recordings to be deleted at any tim
 including in a session that's being recorded. Opting out doesn't delete earlier recordings by
 itself; ask the operator if you want those deleted too.
 
+## Feedback
+
+If you use `/feedback`, the text you write is published as a **public issue on GitHub**, where
+anyone can read it and GitHub stores it. [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+applies there. Your name and user ID are not included. The server's moderators see in the mod log
+that you sent it, with a link. The bot refuses text containing a national ID number, an invite link
+or a mention of a member, but it can't catch everything, so don't write personal details about
+yourself or anyone else. Ask the operator if you want an issue removed.
+
 ## Who can see your data
 
 - **The server's moderators and administrators**, through the bot's commands and the staff
   channels they configure.
 - **The operator**, who runs the bot and manages the database, logs and recordings.
+- **Everyone**, for what you send with `/feedback`: see [Feedback](#feedback).
 - **UpCloud**, the hosting provider. The bot runs on a server rented from UpCloud in Norway, so
   the database, logs and recordings are stored there on the operator's behalf.
 - **The campaign's DM**, who receives the session recordings and notes for their campaign.
 - **Discord**, which carries every message the bot sends and receives. Discord's own
   [Privacy Policy](https://discord.com/privacy) applies to that.
 
-We don't share data with anyone else unless the law requires it. The bot does not use
+Apart from feedback, which you choose to publish, we don't share data with anyone else unless the
+law requires it. The bot does not use
 third-party analytics, advertising or AI services.
 
 ## Why we're allowed to (legal basis)
