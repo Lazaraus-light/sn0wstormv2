@@ -1,0 +1,28 @@
+name: Something isn't working
+description: The bot did something wrong, or didn't do what the guides say.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Please don't include personal information, private messages, or anything about another member. A problem with a moderator's decision belongs with that server's moderators.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Which command or feature was it, and what did the bot do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      description: The steps you took. Cover up any names or IDs in screenshots.
+    validations:
+      required: false

@@ -1,0 +1,20 @@
+name: Suggest something
+description: An idea for a new feature or an improvement.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Please don't include personal information.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it help with?
+    validations:
+      required: true

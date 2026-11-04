@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A question, or a request about your data
+    url: https://lazaraus-light.github.io/sn0wstormv2/PRIVACY.html#your-rights
+    about: Message gramzon on Discord. Don't post requests about your data here, because issues are public.
+  - name: A security problem
+    url: https://github.com/Lazaraus-light/sn0wstormv2/security/advisories/new
+    about: Report it privately, not as an issue.
