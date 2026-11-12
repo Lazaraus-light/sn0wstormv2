@@ -5,7 +5,7 @@ nav_order: 6
 
 # Sn0wStormV2 Privacy Policy
 
-_Effective 4 November 2026_
+_Effective 12 November 2026_
 
 Sn0wStormV2 is a moderation bot for Discord. This policy explains what information the bot
 handles when it runs in a Discord server, why, where it ends up and how long it is kept.
@@ -90,8 +90,9 @@ delete them; the operator does not keep separate copies.
   contains a national ID number, its content is withheld from the log, whoever posted it.
 - **Reports (staff-only channel):** if you use `/report` or **Report message**, the report
   contains your username and user ID, the reported user's username and user ID, your reason,
-  and a link to and short excerpt of the reported message. A screenshot you attach is copied
-  into the report so it survives if the original is deleted. Attachments on a reported
+  and a link to and short excerpt of the reported message. A screenshot you attach (up to 10 MB)
+  is copied into the report so it survives if the original is deleted; a bigger file is
+  linked instead. Attachments on a reported
   message are listed by file name only, never copied. The report shows its status and which
   moderator handled it.
 - **Short public notices:** when automod removes a message, a brief notice mentioning you

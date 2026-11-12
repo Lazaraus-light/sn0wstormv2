@@ -39,12 +39,12 @@ What you do with the bot is posted in the **mod log** channel, so the whole team
 
 ## Reports from members
 
-Reports made with `/report` or **Report message** land in the reports channel, or in the mod log if no reports channel is set. Each report shows who reported whom, why, and any screenshot. Treat them as private.
+Reports made with `/report` or **Report message** land in the reports channel, or in the mod log if no reports channel is set. Each report shows who reported whom, why, and any screenshot. Screenshots up to 10 MB are copied into the report; bigger files get a link instead. Treat them as private.
 
 Each report has buttons, so the team can see who is on it:
 
 - **Claim**: shows the others you're handling it. Click again to let it go. Clicking a report someone else has claimed takes it over.
-- **Warn** or **Timeout**: asks for a reason (and, for a timeout, how long), then works just like `/warn` or `/timeout`. The report is marked as resolved.
+- **Warn** or **Timeout**: asks for a reason (and, for a timeout, how long), then works just like `/warn` or `/timeout`. The report is marked as resolved. These two need the **Timeout Members** permission or the mod role, the same as the commands. Moderators who can only manage messages can still claim and dismiss reports.
 - **Dismiss**: closes the report without action, for example when it was a misunderstanding.
 
 The report shows its status at the bottom, and closed reports lose their buttons. You can't handle a report about yourself; another moderator has to.
@@ -78,12 +78,12 @@ These need the Manage Server permission. `/setup show` shows the current setting
 
 | Command | What it sets |
 |---|---|
-| `/setup modlog #channel` | Where the mod log goes. Keep this channel staff-only. |
-| `/setup reports #channel` | Where member reports go. Staff-only. |
+| `/setup modlog #channel` | Where the mod log goes. Keep this channel staff-only. If members can see it, the bot still saves your choice but warns you. |
+| `/setup reports #channel` | Where member reports go. Staff-only, and the bot warns you if members can see it. |
 | `/setup rules #channel` | Your rules channel, which the welcome message links to. |
 | `/setup welcome #channel` | Where new members are greeted. Add `message:` to write your own greeting: `{user}` becomes their name, `{server}` the server name and `{rules}` a link to the rules. Use `message:default` to go back to the standard text. Leave the channel empty to turn welcomes off. |
 | `/setup verification` | Lets people unlock the server by reacting to a post. Give it the link to the post (right-click → **Copy Message Link**) and the role to hand out. |
-| `/setup modrole @role` | A role that counts as moderator, for teams that use a role rather than Discord permissions. People with it can use the report buttons, and they don't get warnings or automatic filters. They still can't act on anyone ranked at or above them. Leave the role empty to remove it. See the note below. |
+| `/setup modrole @role` | A role that counts as moderator, for teams that use a role rather than Discord permissions. People with it can use all the report buttons, Warn and Timeout included, and they don't get warnings or automatic filters. They still can't act on anyone ranked at or above them. Leave the role empty to remove it. See the note below. |
 | `/setup gallery #channel` | The channel where pictures and links belong. |
 | `/setup media #channel restricted` | Turn on to only allow links and pictures in that channel when they're part of a conversation. |
 | `/setup automod` | Turn the automatic spam and safety filters on or off, or change the mention limit. |
@@ -114,6 +114,8 @@ A good habit: save your normal look as `standard` before decorating for the firs
 2. Run `/setup verification` with the link to that post and a role such as `@Member`.
 3. In Server Settings → Roles, drag the bot's role above `@Member`.
 4. Hide your other channels from `@everyone` and show them to `@Member`. Keep the rules and welcome channels visible to everyone.
+
+Don't give the verification role moderator permissions later on. If it gets any, or becomes the mod role, the bot stops handing it out and alerts the bot's owner, so nobody can react their way into moderator powers.
 
 If someone leaves and comes back later, the bot gives them the role again as long as their reaction is still on the post. If you set this up before that feature arrived and your post isn't in the rules channel, run `/setup verification` once more.
 

@@ -22,7 +22,7 @@ That's it: you'll see the other channels straight away. If the server is in a sh
 
 | Command | What it does |
 |---|---|
-| `/report @user` | Tells the moderators privately about someone breaking the rules. A box pops up for you to explain what happened. You can attach a screenshot, which is handy for messages sent to you in private. Nobody else sees your report. |
+| `/report @user` | Tells the moderators privately about someone breaking the rules. A box pops up for you to explain what happened. You can attach a screenshot, which is handy for messages sent to you in private. Keep it under 10 MB so it's copied into the report; bigger files are only linked. Nobody else sees your report. |
 | **Report message** | Right-click a message (on a phone, press and hold it), choose **Apps**, then **Report message**. The moderators get a link to the message and your explanation. |
 | `/feedback` | Tell the bot's developer about something that isn't working, or suggest an idea. You don't need a GitHub account. **What you write is published on a public web page**, without your name, so leave out personal details and anything about other members. The moderators of your server can see that you sent it. You can send 3 per hour. |
 | `/boop` | Boop the bot's snoot, or boop someone else with `/boop @member`. Just for fun. |
