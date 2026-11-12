@@ -1,0 +1,5 @@
+{%- comment -%}
+  Replaces the theme's title.html: the bot's avatar (art by smidgefish), small and round,
+  before the usual text title. scripts/build_site.py copies it in from assets/.
+{%- endcomment -%}
+<img src="{{ '/assets/avatar-by-smidgefish.jpg' | relative_url }}" alt="" width="32" height="32" style="border-radius: 50%; margin-right: 0.5rem; flex-shrink: 0;">{{ site.title }}

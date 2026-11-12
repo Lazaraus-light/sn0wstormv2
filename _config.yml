@@ -19,7 +19,7 @@ aux_links:
   Report an issue: https://github.com/Lazaraus-light/sn0wstormv2/issues/new/choose
 aux_links_new_tab: true
 
-footer_content: Questions about the bot? Message <strong>gramzon</strong> on Discord.
+footer_content: Questions about the bot? Message <strong>gramzon</strong> on Discord. Avatar art by smidgefish.
 
 exclude:
   - README.md
